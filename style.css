@@ -1,0 +1,28 @@
+body {
+  font-family: "Poppins";
+  font-weight: 200;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+rect:hover {
+  fill: white;
+}
+
+#tooltip {
+  position: absolute;
+  background-color: #f7f7f7;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding: 10px;
+  opacity: 0;
+  pointer-events: none;
+  font-size: 12px;
+}
